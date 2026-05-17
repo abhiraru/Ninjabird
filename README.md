@@ -1,12 +1,50 @@
-# React + Vite
+# Ninja Bird
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ninja Bird is a fast-paced React arcade game built with Vite. Jump, dodge incoming obstacles, chase higher scores, and restart instantly when the run ends.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Click, tap, or press `Space` to jump
+- Score tracking with milestone popups
+- Increasing game speed for a tougher challenge
+- Sound effects for jumping, achievements, and game over
+- Responsive play area for desktop and mobile
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Scripts
+
+- `npm run dev` starts the local Vite dev server
+- `npm run build` creates a production build
+- `npm run lint` checks the project with ESLint
+- `npm run preview` serves the production build locally
